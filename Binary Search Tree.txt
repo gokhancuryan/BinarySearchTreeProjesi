@@ -1,0 +1,20 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aþamalarýný yazýnýz. 
+
+Root 5'tir. 
+
+			5 (Root) 
+					7 (7, 5'ten büyük bir deðerdir. Rootun saðýna yazýlmalýdýr.)
+	1 ( Roottan küçük deðerler Rootun soluna yazýlýr.)
+						8 ( Roottan ve 7'den büyük olduðu için 8, 7'nin saðýna yazýlýr.)
+		3 ( Roottan küçük ve 1'den büyük olduðu için 3 sayýsý Rootun soluna, 1 'in saðýna yazýlýr.)
+			   	6 ( Roottan büyük ve 7'den küçük olduðu için 6, 7'nin soluna yazýlýr.)
+0 ( Roottan ve 1'den küçük olduðu için 0, bu sayýlarýn en soluna yazýlýr.)
+							9 (Roottan, 7'den ve 8'den büyük olduðu için en saða yazýlýr.)
+		      4 (Rootun soluna ve 3'ün saðýna yazýlýr.)
+	    2 (Rootun soluna ve 1'in saðýna yazýlýr.)
+
+				5 -> Root
+			1		7
+			    3		    8
+		    0		     6	
+			 2     4		9		
